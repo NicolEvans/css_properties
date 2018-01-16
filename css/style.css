@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #fffff;
+  color: #000000;
+  font-size: 16px;
 }
 
 nav {
@@ -42,6 +43,23 @@ li {
   padding: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: blue;
+}
+
 article {
   padding-top: 100px;
 }
@@ -49,4 +67,20 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+  padding: .3em 0 .15em 0;
+}
+
+h3 {
+  font-size: 1.35em;
+  line-height: 1.2em;
+  padding: .15em 0 .3em 0;
+}
+
+p {
+  line-height: 1.35em;
+  padding: .5em 0 .5em 0;
 }
